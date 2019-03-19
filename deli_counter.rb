@@ -13,3 +13,10 @@ def take_a_number(arr, el)
   arr << el
   puts "Welcome, #{el}. You are number #{arr.length} in line."
 end
+
+def now_serving(arr)
+  if arr == []
+    puts "There is nobody waiting to be served!"
+  end
+  arr
+end
