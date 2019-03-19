@@ -11,5 +11,5 @@ end
 
 def take_a_number(arr, el)
   arr << el
-
+  puts "Welcome, #{el}. You are number #{arr.length} in line."
 end
