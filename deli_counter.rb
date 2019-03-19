@@ -2,8 +2,8 @@ def line(arr)
   if arr == []
     puts "The line is currently empty."
   else
-    statement = ""
-    print "The line is currently: "
+    statement = "The line is currently: "
+    
     arr.each_with_index do |el, index|
       print "#{index+1}. #{el} "
     end
