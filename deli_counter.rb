@@ -4,7 +4,7 @@ def line(arr)
   else
     print "The line is currently:"
     arr.each_with_index do |el, index|
-      print
+      print "#{index}. el "
     end
   end
 end
