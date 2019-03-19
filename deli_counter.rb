@@ -4,7 +4,11 @@ def line(arr)
   else
     print "The line is currently:"
     arr.each_with_index do |el, index|
-      print "#{index}. el "
+      print "#{index+1}. el "
     end
   end
+end
+
+def take_a_number
+  
 end
