@@ -7,7 +7,7 @@ def line(arr)
     arr.each_with_index do |el, index|
       statement +=  "#{index+1}. #{el} "
     end
-    puts statement.rstrip
+    puts statement.strip!
   end
 end
 
